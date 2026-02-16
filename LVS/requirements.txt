@@ -1,9 +1,7 @@
-pandas
 altair
-numpy
 bottleneck
-scipy
 matplotlib
-seaborn
+numpy
+pandas
 scikit-learn
-bottleneck
+scipy

@@ -1,30 +1,15 @@
-# %%
-#
 #Always use 3.11.9 
-import pandas as pd  
-import altair as alt
-import numpy as np
-from pathlib import Path
-import sys, os
+import os
 import configparser
-import argparse 
-from helpers import read
- 
-import bottleneck as bn
-from LPA import Corpus, sockpuppet_distance
+import pandas as pd
+import altair as alt
+from LPA import Corpus
 import lvs_per_document
-from math import floor
-from scipy.spatial.distance import cdist, cityblock
-import matplotlib.pyplot as plt
-from visualize import sockpuppet_matrix, timeline
+
 alt.data_transformers.disable_max_rows()
-from unpivot_utils import unpivot_wide_dataframe
-from unpivot_utils import unpivot_dataframe 
-import seaborn as sns
-from sklearn.decomposition import PCA
  
 
-# %%
+
 def load_data(file_path):
 
     try:
@@ -120,7 +105,7 @@ def save_results(df,entity_code_df, output_path,output_dic):
 
 
 
-# %%
+
 
 
 
@@ -140,7 +125,6 @@ def generate_signatures(df, entity_code_df, sig_file, dataset,graph,top,sig_leng
 
     try:
         # Create results directory if it doesn't exist
-        import os
         os.makedirs(f"results/{dataset}", exist_ok=True)
         print (f"sig_file: {sig_file}, dataset: {dataset}, graph: {graph}, top: {top}, sig_length: {sig_length}, var_name: {var_name}, value_name: {value_name}")
         # aggregate lines in df 
@@ -214,24 +198,7 @@ def generate_signatures(df, entity_code_df, sig_file, dataset,graph,top,sig_leng
 
             pivoted_df = pivoted_df[pivoted_df.iloc[:, 0].notna()]
             pivoted_sorted_desc = pivoted_df.sort_values(by=pivoted_df.columns[0], ascending=False)
-            #pivoted_sorted_desc['col1_numeric'] = pd.to_numeric(pivoted_sorted_desc[pivoted_sorted_desc.columns[0]], errors='coerce')
-            #pivoted_sorted_desc= pivoted_sorted_desc.sort_values(by=pivoted_sorted_desc.columns[1].abs(), ascending=False)
             pivoted_sorted_desc.to_csv(file_name, index=True)
-            
-            # Convert column[0] to numeric. 'coerce' will turn invalid parsing into NaN.
-            ''' 
-            pivoted_df['col1_numeric'] = pd.to_numeric(pivoted_df[pivoted_df.columns[0]], errors='coerce')
-
-            # Drop rows where conversion failed (optional, depending on how you want to handle errors)
-            pivoted_df.dropna(subset=['col1_numeric'], inplace=True)
-
-            # Sort rx_filtered by the absolute value of the newly created numeric column in descending order
-            rx_sorted_abs_desc = pivoted_df.sort_values(by=pivoted_df['col1_numeric'].abs(), ascending=False)
-
-            # Drop the temporary numeric column if you don't need it
-            rx_sorted_abs_desc = rx_sorted_abs_desc.drop(columns=['col1_numeric'])
-            rx_sorted_abs_desc.to_csv(file_name, index=True)
-            '''
 
             print(f"Saved pivoted data for row {index} to '{file_name}'") 
 
@@ -242,10 +209,7 @@ def generate_signatures(df, entity_code_df, sig_file, dataset,graph,top,sig_leng
         # save list into dataframe  
         df_list = pd.DataFrame(sigs[0])
         print(f"Element list saved to results/{dataset}/list.txt")
-        #print(df_list.head(5))
-        #pivot_the_list = df_list.melt(var_name='element', value_name='value', ignore_index=False)
         print(df_list.columns)
-        #print(df_list.head(5))
         pivot_the_list = df_list.melt(var_name=var_name, value_name=value_name, ignore_index=False)
         pivot_the_list = pivot_the_list.reset_index().rename(columns={'index': 'element'})
         df_list = pivot_the_list.dropna().reset_index(drop=True)   
@@ -274,7 +238,6 @@ def generate_signatures(df, entity_code_df, sig_file, dataset,graph,top,sig_leng
             how='outer'  , 
             suffixes=('_ob', '_expected')
             )
-            #document         element  frequency_in_document     doc_total  freq_norm
             df_merged = pd.merge(
             df_merged, 
             freq, 
@@ -294,24 +257,7 @@ def generate_signatures(df, entity_code_df, sig_file, dataset,graph,top,sig_leng
 
             lvs_per_document.plot_document (df_merged,dataset,docs) 
 
-            ''' GIGI
-            ecorpus = Corpus(df)
-            ecorpus_dvr = ecorpus.create_dvr(equally_weighted=True)  # Corrected variable name
-            esigs = ecorpus.create_signatures(distance="JSD")
-            #
-            espd = sockpuppet_distance(ecorpus, ecorpus, heuristic=False, distance="euclidean")
-            chart = sockpuppet_matrix(espd)
-            if chart is not None:
-                try:
-                    chart.save(f"results/{dataset}/sockpuppet_distance_matrix.png", scale_factor=4.0)
-                    print(f"Sockpuppet distance matrix chart saved to results/{dataset}/sockpuppet_distance_matrix.png")
-                except Exception as e:
-                    print(f"Error saving sockpuppet distance matrix chart: {e}")
-
-            espd.to_csv(f"results/{dataset}/sockpuppet_distance_matrix.csv", index=False)
-            #
             # Top 10 distances chart
-            '''
             try:
                 top_changing = sig[sig.sum(0).abs().sort_values(ascending=False).head(10).index]
                 chart = (
@@ -341,7 +287,7 @@ def generate_signatures(df, entity_code_df, sig_file, dataset,graph,top,sig_leng
         return None
 
 
-# %%
+
 # Define the pipeline  
 # Reuse the functions from the basic example
 # clean_data, filter_data, calculate_summary, save_results
@@ -389,7 +335,7 @@ def     process_data(file_path,agg_column,var_name,value_name,output_path,output
 
 
 
-# %%
+
 def main():
     # 1. Set up argument parser
     #parser = argparse.ArgumentParser(description="Process data from a CSV file.")
