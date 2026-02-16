@@ -1,0 +1,7 @@
+Corpus 1,Corpus 2,value
+AI,AI,0.0
+Collaborative,AI,1.0
+Human,AI,0.45346769741490733
+Collaborative,Collaborative,0.0
+Human,Collaborative,0.9133141888409094
+Human,Human,0.0

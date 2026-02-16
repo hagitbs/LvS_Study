@@ -1,0 +1,18 @@
+[data]
+file_path = data/alon/Allondata.csv
+file_path2 = None
+dataset = alon 
+[proc] 
+agg_column= document
+var_name= element
+value_name= frequency_in_document
+processing_type = wide_unpivot
+columns_to_remove= E5,E6,E8
+[output]
+output_path = results/alon/lvs.csv
+output_dic = results/alon/dic.csv 
+sig_file = results/alon/signatures.csv
+graph = True
+top = 25
+sig_length = 200 
+short_names = False

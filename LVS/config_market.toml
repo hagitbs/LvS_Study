@@ -1,0 +1,17 @@
+[data]
+file_path = data/market/market.csv
+file_path2 = None
+dataset = market
+[proc]
+agg_column=Country
+var_name=Industry
+value_name=Marketcap
+processing_type = freq
+[output]
+output_path = results/market/lvs.csv
+output_dic = results/market/dic.csv 
+sig_file = results/market/signatures.csv
+graph = True
+top = 25
+sig_length = 200
+short_names = False

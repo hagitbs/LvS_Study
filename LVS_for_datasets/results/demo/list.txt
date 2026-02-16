@@ -1,0 +1,440 @@
+Saudi Arabia     -0.019078
+Switzerland      -0.012644
+Spain             0.010205
+Italy             0.008732
+China             0.007905
+South Korea       0.007683
+Norway            0.007069
+USA              -0.006495
+Germany           0.004686
+Netherlands      -0.003688
+Japan            -0.003375
+Singapore        -0.002285
+Bermuda          -0.002201
+Czech Republic    0.002125
+Malaysia          0.001812
+India             0.001809
+Mexico           -0.001771
+Australia        -0.001426
+Portugal          0.001405
+Belgium          -0.001394
+Sweden           -0.001343
+Ireland          -0.001185
+Brazil            0.001120
+Taiwan           -0.001003
+Chile             0.000865
+South Africa     -0.000814
+Russia           -0.000511
+Finland           0.000450
+UK               -0.000421
+Greece            0.000418
+Luxembourg       -0.000308
+Turkey           -0.000289
+Philippines       0.000279
+Canada           -0.000237
+Colombia         -0.000227
+Denmark           0.000209
+Iceland          -0.000167
+Hungary          -0.000118
+Kazakhstan       -0.000112
+Austria           0.000108
+Poland            0.000095
+New Zealand      -0.000091
+Hong Kong        -0.000063
+Romania           0.000055
+Cayman Islands   -0.000049
+Peru             -0.000048
+Indonesia        -0.000044
+Kuwait           -0.000038
+Isle of Man      -0.000022
+Jordan           -0.000011
+Gibraltar        -0.000008
+Argentina        -0.000008
+France           -0.000003
+Israel           -0.000001
+Name: Electricity, dtype: float64
+Switzerland       0.025098
+Saudi Arabia     -0.008446
+UK                0.008048
+Australia        -0.006586
+USA              -0.005917
+Denmark          -0.005616
+Germany          -0.003917
+India             0.003114
+Italy            -0.003082
+Singapore         0.002661
+Spain            -0.002602
+Bermuda          -0.002201
+Indonesia         0.002024
+Mexico            0.001991
+Hong Kong        -0.001898
+Ireland           0.001631
+South Korea      -0.001359
+Finland          -0.001125
+Taiwan           -0.001003
+Netherlands       0.000834
+Portugal         -0.000818
+Philippines       0.000811
+Czech Republic   -0.000747
+Poland           -0.000611
+South Africa      0.000611
+Russia           -0.000511
+Chile            -0.000510
+Malaysia          0.000407
+Iceland           0.000374
+New Zealand       0.000314
+France            0.000310
+Luxembourg       -0.000308
+China            -0.000287
+Argentina        -0.000283
+Greece           -0.000229
+Colombia         -0.000227
+Austria          -0.000139
+Cayman Islands    0.000122
+Hungary          -0.000118
+Kazakhstan       -0.000112
+Israel           -0.000096
+Canada            0.000094
+Romania          -0.000068
+Turkey            0.000064
+Norway            0.000056
+Peru             -0.000048
+Kuwait           -0.000038
+Gibraltar         0.000034
+Belgium           0.000025
+Isle of Man      -0.000022
+Brazil            0.000019
+Sweden            0.000017
+Jordan           -0.000011
+Japan             0.000004
+Name: Food, dtype: float64
+Saudi Arabia     -0.019078
+Bermuda           0.006740
+Germany           0.006731
+USA              -0.003196
+Switzerland       0.002652
+Denmark          -0.002559
+Taiwan            0.002423
+Belgium           0.001867
+Canada            0.001820
+Mexico           -0.001771
+Spain            -0.001694
+Indonesia        -0.001590
+Sweden           -0.001343
+Ireland          -0.001185
+Norway           -0.001142
+Malaysia         -0.001053
+Czech Republic   -0.000747
+India             0.000655
+Finland           0.000636
+Russia           -0.000511
+Chile            -0.000510
+Italy             0.000494
+Japan             0.000479
+Singapore        -0.000443
+China             0.000442
+Philippines      -0.000381
+France            0.000320
+Luxembourg       -0.000308
+South Korea      -0.000303
+Turkey           -0.000289
+Argentina        -0.000283
+Poland            0.000270
+Israel           -0.000249
+Greece           -0.000229
+Colombia         -0.000227
+Peru              0.000215
+Kuwait            0.000170
+South Africa      0.000166
+Hungary          -0.000118
+Kazakhstan       -0.000112
+Netherlands       0.000109
+New Zealand      -0.000091
+Romania          -0.000068
+Austria           0.000063
+Brazil           -0.000051
+Jordan            0.000049
+Hong Kong         0.000027
+UK                0.000023
+Cayman Islands    0.000023
+Isle of Man      -0.000022
+Portugal         -0.000020
+Iceland          -0.000015
+Australia         0.000010
+Gibraltar        -0.000008
+Name: Insurance, dtype: float64
+Saudi Arabia      0.081839
+Switzerland      -0.017496
+USA              -0.015189
+Germany          -0.009240
+Denmark          -0.008814
+Japan            -0.005269
+Netherlands      -0.003688
+Canada            0.003639
+Hong Kong        -0.003545
+South Korea      -0.002326
+Singapore        -0.002285
+Russia            0.002282
+Brazil            0.001874
+Mexico           -0.001771
+Spain            -0.001509
+Sweden           -0.001343
+Norway            0.001121
+China             0.001031
+Colombia          0.001016
+India            -0.000990
+UK                0.000986
+Belgium          -0.000920
+Israel           -0.000889
+Bermuda          -0.000723
+Taiwan           -0.000648
+Chile            -0.000510
+Indonesia         0.000475
+France            0.000452
+Malaysia         -0.000448
+Philippines      -0.000381
+Luxembourg       -0.000308
+Poland            0.000268
+Australia        -0.000213
+Turkey            0.000207
+Ireland          -0.000194
+Czech Republic    0.000188
+Hungary           0.000179
+Iceland          -0.000167
+Austria           0.000147
+Romania           0.000138
+Italy             0.000119
+Kazakhstan       -0.000112
+South Africa     -0.000090
+Finland           0.000082
+Cayman Islands   -0.000049
+Peru             -0.000048
+Greece            0.000044
+Kuwait           -0.000038
+Portugal          0.000033
+Isle of Man      -0.000022
+Jordan           -0.000011
+Gibraltar        -0.000008
+Argentina        -0.000006
+New Zealand       0.000002
+Name: Oil&Gas, dtype: float64
+Denmark           2.716440e-02
+Saudi Arabia     -1.907829e-02
+Canada           -1.053794e-02
+Hong Kong        -6.738855e-03
+Switzerland       5.989312e-03
+China            -5.439636e-03
+Norway           -4.185652e-03
+Brazil           -2.969074e-03
+South Korea      -2.650632e-03
+Singapore        -2.285384e-03
+Spain            -2.260827e-03
+Bermuda          -2.201045e-03
+Mexico           -1.770785e-03
+Italy            -1.713343e-03
+Indonesia        -1.589779e-03
+Japan             1.069967e-03
+UK                1.069497e-03
+Malaysia         -1.052845e-03
+Ireland           1.044223e-03
+Taiwan           -1.002790e-03
+Portugal         -8.180721e-04
+Czech Republic   -7.468086e-04
+Poland           -6.114477e-04
+Austria          -5.842446e-04
+Russia           -5.105292e-04
+Chile            -5.102371e-04
+Philippines      -3.808213e-04
+France            3.044802e-04
+Netherlands      -2.976262e-04
+Turkey           -2.894668e-04
+Argentina        -2.828955e-04
+Belgium           2.418374e-04
+Greece           -2.294280e-04
+Colombia         -2.272483e-04
+Finland          -2.063202e-04
+Luxembourg       -1.978778e-04
+Hungary           1.496317e-04
+Israel            1.438638e-04
+Australia         1.317395e-04
+Kazakhstan       -1.124196e-04
+New Zealand      -9.113026e-05
+Romania          -6.805547e-05
+Cayman Islands   -4.922224e-05
+Peru             -4.807384e-05
+Kuwait           -3.792492e-05
+Sweden           -3.766985e-05
+Iceland           3.433422e-05
+Isle of Man      -2.157070e-05
+India            -1.865550e-05
+Jordan           -1.103918e-05
+Gibraltar        -7.629712e-06
+Germany           5.736540e-06
+USA              -3.877724e-07
+South Africa      3.482227e-08
+Name: Pharmaceuticals, dtype: float64
+Hong Kong         0.021032
+Saudi Arabia     -0.019078
+Switzerland      -0.012193
+Denmark          -0.006624
+China            -0.005724
+Spain            -0.005718
+Italy            -0.004502
+Norway           -0.004186
+Australia         0.003773
+South Korea      -0.002940
+Singapore         0.002468
+Japan             0.002121
+UK               -0.002064
+Mexico           -0.001771
+Israel            0.001186
+Ireland          -0.001185
+Finland          -0.001125
+Taiwan           -0.001003
+USA               0.000869
+Portugal         -0.000818
+Sweden            0.000814
+Czech Republic   -0.000747
+Poland           -0.000611
+Brazil           -0.000602
+Russia           -0.000511
+Luxembourg        0.000386
+Philippines      -0.000381
+Netherlands      -0.000295
+Turkey           -0.000289
+Greece           -0.000229
+Colombia         -0.000227
+India             0.000225
+Austria           0.000178
+Iceland          -0.000167
+Hungary          -0.000118
+Kazakhstan       -0.000112
+Belgium          -0.000111
+South Africa     -0.000108
+New Zealand      -0.000091
+Romania          -0.000068
+Indonesia        -0.000059
+Cayman Islands   -0.000049
+Peru             -0.000048
+Chile             0.000042
+Bermuda           0.000041
+Kuwait           -0.000038
+Canada           -0.000029
+Malaysia         -0.000027
+France            0.000026
+Isle of Man      -0.000022
+Jordan           -0.000011
+Gibraltar        -0.000008
+Germany          -0.000006
+Argentina        -0.000004
+Name: Real Estate, dtype: float64
+Switzerland      -0.019850
+Saudi Arabia     -0.015713
+USA               0.010597
+Denmark          -0.008814
+Germany          -0.006263
+France           -0.005083
+Italy            -0.004502
+Hong Kong        -0.004493
+Norway           -0.004186
+India            -0.003928
+UK               -0.002965
+Mexico            0.002953
+Singapore        -0.002285
+Spain             0.002251
+Ireland          -0.001185
+Taiwan           -0.001003
+Bermuda          -0.001002
+Australia         0.000956
+Czech Republic   -0.000747
+Austria          -0.000584
+Russia           -0.000511
+Israel           -0.000407
+Philippines      -0.000381
+Sweden            0.000370
+Malaysia         -0.000352
+Luxembourg        0.000333
+Belgium          -0.000322
+Argentina        -0.000283
+Turkey            0.000241
+Colombia         -0.000227
+Brazil           -0.000212
+China            -0.000190
+Indonesia        -0.000168
+Netherlands      -0.000157
+Chile             0.000130
+Hungary          -0.000118
+Kazakhstan       -0.000112
+New Zealand      -0.000091
+Romania          -0.000068
+Japan             0.000056
+Finland          -0.000055
+Cayman Islands   -0.000049
+Peru             -0.000048
+South Korea       0.000048
+Portugal          0.000041
+Iceland          -0.000040
+Kuwait           -0.000038
+Canada            0.000025
+Poland            0.000022
+Isle of Man      -0.000022
+Greece            0.000017
+Jordan           -0.000011
+Gibraltar        -0.000008
+South Africa      0.000003
+Name: Retail, dtype: float64
+USA               0.023425
+Saudi Arabia     -0.019078
+UK               -0.017790
+India            -0.014163
+Switzerland      -0.010452
+Denmark          -0.008814
+Hong Kong        -0.007553
+Canada           -0.004642
+Italy            -0.004502
+Norway           -0.004186
+Spain            -0.003566
+Australia        -0.003012
+Brazil           -0.002969
+Netherlands       0.002545
+Mexico           -0.001771
+Bermuda          -0.001639
+France           -0.001565
+Belgium          -0.001394
+Germany          -0.001272
+Indonesia        -0.001100
+Malaysia         -0.001053
+Portugal         -0.000818
+South Africa     -0.000814
+South Korea      -0.000759
+Czech Republic   -0.000747
+Argentina         0.000737
+Russia           -0.000511
+Chile            -0.000510
+Kazakhstan        0.000503
+Austria          -0.000493
+Taiwan            0.000475
+Poland           -0.000472
+Singapore        -0.000413
+Japan            -0.000413
+Philippines      -0.000381
+Turkey           -0.000289
+Ireland          -0.000253
+Greece           -0.000229
+Colombia         -0.000227
+China            -0.000223
+Israel           -0.000212
+Finland          -0.000199
+Iceland          -0.000167
+Hungary          -0.000118
+Isle of Man       0.000096
+New Zealand      -0.000091
+Romania          -0.000068
+Cayman Islands   -0.000049
+Peru             -0.000048
+Kuwait           -0.000038
+Sweden            0.000028
+Luxembourg       -0.000024
+Jordan           -0.000011
+Gibraltar        -0.000008
+Name: Technology, dtype: float64

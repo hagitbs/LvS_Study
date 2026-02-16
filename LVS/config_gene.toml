@@ -1,0 +1,18 @@
+[data]
+file_path = data/gene/pbmc3k_expression_with_labels.csv
+file_path2 = None
+dataset = gene 
+[proc] 
+agg_column= element
+var_name= gene
+value_name= prot
+processing_type = full
+columns_to_remove = CellType
+[output]
+output_path = results/gene/lvs.csv
+output_dic = results/gene/dic.csv 
+sig_file = results/gene/signatures.csv
+graph = False
+top = 25
+sig_length = 200 
+short_names = False

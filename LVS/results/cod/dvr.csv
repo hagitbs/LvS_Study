@@ -1,0 +1,32 @@
+,element,global_weight
+0,Cardiovascular diseases,0.3039135355246545
+1,Neoplasms,0.15561816876720513
+2,Chronic respiratory diseases,0.07125939952697234
+3,Lower respiratory infections,0.05755750283511916
+4,Neonatal disorders,0.052867887263875396
+5,Diarrheal diseases,0.04574862455119696
+6,Digestive diseases,0.044627564202639886
+7,Tuberculosis,0.03155651270642639
+8,Cirrhosis and other chronic liver diseases,0.025456958991994096
+9,Road injuries ,0.02476337935549052
+10,HIV/AIDS,0.02466588959080638
+11,Diabetes mellitus,0.021199270678605168
+12,Alzheimer's disease and other dementias,0.019993008439900505
+13,Chronic kidney disease,0.01947126538577039
+14,Malaria,0.017377560361289294
+15,Self-harm,0.016216242449844726
+16,Nutritional deficiencies,0.009616494581960264
+17,Interpersonal violence,0.00871116349147639
+18,Protein-energy malnutrition,0.008391529879052551
+19,Meningitis,0.007257857504972818
+20,Drowning,0.0071236388000358
+21,Maternal disorders,0.005317571400179081
+22,Parkinson's disease,0.004833123916684804
+23,Alcohol use disorders,0.003280917165214684
+24,Acute hepatitis,0.0026176526420665413
+25,"Fire, heat, and hot substances",0.0024682614971321985
+26,Conflict and terrorism,0.002259519068200754
+27,Drug use disorders,0.0017981281412636592
+28,Poisonings,0.0017805712226982172
+29,Environmental heat and cold exposure,0.0012280231369405654
+30,Exposure to forces of nature,0.0010227769203308517

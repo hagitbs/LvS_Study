@@ -1,0 +1,24 @@
+cost         -0.001772
+impact       -0.001681
+college      -0.001419
+savings      -0.001418
+benefits     -0.001320
+                ...   
+collection   -0.000119
+curriculum   -0.000119
+veg          -0.000118
+field        -0.000118
+schedule     -0.000118
+Name: Miro, Length: 200, dtype: float64
+create        -0.001234
+fashion       -0.001149
+organize      -0.001106
+their         -0.001064
+such          -0.001021
+                 ...   
+propose       -0.000170
+raising       -0.000170
+restoration   -0.000170
+roof          -0.000170
+passes        -0.000170
+Name: Noda, Length: 200, dtype: float64

@@ -1,0 +1,17 @@
+[data]
+file_path = data/cod/annual-number-of-deaths-by-cause.csv
+file_path2 = data/cod/population.csv
+dataset = cod
+[proc]
+agg_column= Year
+var_name= Cause
+value_name= Deaths
+processing_type = full
+[output]
+output_path = results/cod/lvs.csv
+output_dic = results/cod/dic.csv 
+sig_file = results/cod/signatures.csv
+graph = True
+top = 30
+sig_length = 30
+short_names = False

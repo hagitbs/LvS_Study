@@ -1,0 +1,9 @@
+pandas
+altair
+numpy
+bottleneck
+scipy
+matplotlib
+seaborn
+scikit-learn
+bottleneck

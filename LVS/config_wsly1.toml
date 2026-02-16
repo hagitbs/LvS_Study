@@ -1,0 +1,17 @@
+[data]
+file_path = data/wsly1/by_source.csv
+file_path2 = None
+dataset = wsly1
+[proc]
+agg_column= document
+var_name= element
+value_name= frequency_in_document
+processing_type = freq
+[output]
+output_path = results/wsly1/lvs.csv
+output_dic = results/wsly1/dic.csv 
+sig_file = results/wsly1/signatures.csv
+graph = True
+top = 25
+sig_length = 200
+short_names = False

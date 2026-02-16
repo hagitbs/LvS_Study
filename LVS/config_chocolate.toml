@@ -1,0 +1,17 @@
+[data]
+file_path = data/chocolate/Chocolate_Sales.csv
+file_path2 = 
+dataset = chocolate
+[proc]
+agg_column= Date
+var_name= prd
+value_name= sales
+processing_type = full
+[output]
+output_path = results/chocolate/lvs.csv
+output_dic = results/chocolate/dic.csv 
+sig_file = results/chocolate/signatures.csv
+graph = True
+top = 31
+sig_length = 31
+short_names = False
