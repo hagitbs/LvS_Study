@@ -1,0 +1,486 @@
+Technology         0.207189
+Insurance         -0.075537
+Food              -0.059121
+Retail            -0.051110
+Oil&Gas           -0.050533
+Pharmaceuticals   -0.046004
+Electricity       -0.030958
+Real Estate       -0.007544
+Name: Argentina, dtype: float64
+Food              -0.059121
+Retail             0.029089
+Electricity       -0.019766
+Real Estate        0.019579
+Pharmaceuticals    0.013712
+Oil&Gas           -0.005662
+Technology        -0.003620
+Insurance         -0.002550
+Name: Australia, dtype: float64
+Retail            -0.051110
+Technology        -0.048367
+Pharmaceuticals   -0.046004
+Oil&Gas            0.035907
+Food              -0.022214
+Real Estate        0.018304
+Insurance          0.002513
+Electricity        0.002349
+Name: Austria, dtype: float64
+Technology        -0.088590
+Oil&Gas           -0.069160
+Insurance          0.059583
+Electricity       -0.052383
+Pharmaceuticals    0.050933
+Retail            -0.003109
+Food              -0.001217
+Real Estate       -0.000235
+Name: Belgium, dtype: float64
+Insurance          0.167404
+Food              -0.059121
+Electricity       -0.052383
+Pharmaceuticals   -0.046004
+Oil&Gas           -0.031429
+Technology        -0.029643
+Retail            -0.012744
+Real Estate        0.004049
+Name: Bermuda, dtype: float64
+Technology        -0.088590
+Oil&Gas            0.058854
+Pharmaceuticals   -0.046004
+Insurance         -0.006768
+Electricity        0.003635
+Food              -0.003201
+Real Estate       -0.002563
+Retail            -0.000010
+Name: Brazil, dtype: float64
+Pharmaceuticals   -0.032732
+Oil&Gas            0.014385
+Electricity       -0.008196
+Food              -0.005108
+Retail             0.003890
+Technology        -0.000379
+Insurance          0.000088
+Real Estate        0.000014
+Name: Canada, dtype: float64
+Food               0.120953
+Oil&Gas           -0.106274
+Technology        -0.088590
+Electricity       -0.052383
+Retail            -0.051110
+Insurance          0.046834
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Cayman Islands, dtype: float64
+Oil&Gas           -0.106274
+Retail             0.090643
+Technology        -0.088590
+Insurance         -0.075537
+Electricity        0.072816
+Food              -0.059121
+Pharmaceuticals   -0.046004
+Real Estate        0.012982
+Name: Chile, dtype: float64
+Technology         0.038714
+Food              -0.015131
+Pharmaceuticals   -0.006048
+Insurance         -0.005630
+Real Estate       -0.005129
+Oil&Gas           -0.000579
+Electricity       -0.000082
+Retail            -0.000023
+Name: China, dtype: float64
+Oil&Gas            0.200273
+Technology        -0.088590
+Insurance         -0.075537
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Colombia, dtype: float64
+Electricity        0.101192
+Technology        -0.088590
+Insurance         -0.075537
+Food              -0.059121
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Oil&Gas            0.043101
+Real Estate       -0.020981
+Name: Czech Republic, dtype: float64
+Pharmaceuticals    0.270869
+Oil&Gas           -0.106274
+Technology        -0.088590
+Retail            -0.051110
+Food              -0.045933
+Insurance         -0.034063
+Real Estate       -0.015355
+Electricity       -0.001859
+Name: Denmark, dtype: float64
+Food              -0.059121
+Real Estate       -0.020981
+Insurance          0.006234
+Technology         0.004230
+Pharmaceuticals   -0.003407
+Electricity        0.000938
+Oil&Gas            0.000901
+Retail            -0.000305
+Name: Finland, dtype: float64
+Retail            -0.022788
+Pharmaceuticals    0.010849
+Technology         0.006279
+Electricity       -0.005647
+Food              -0.003559
+Insurance         -0.001359
+Oil&Gas            0.000441
+Real Estate        0.000228
+Name: France, dtype: float64
+Oil&Gas           -0.087286
+Food              -0.032020
+Retail            -0.021876
+Technology         0.019861
+Insurance          0.011070
+Pharmaceuticals    0.005941
+Electricity        0.002427
+Real Estate        0.000129
+Name: Germany, dtype: float64
+Food               0.286869
+Oil&Gas           -0.106274
+Technology        -0.088590
+Insurance         -0.075537
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Gibraltar, dtype: float64
+Technology        -0.088590
+Insurance         -0.075537
+Food              -0.059121
+Pharmaceuticals   -0.046004
+Electricity        0.045283
+Retail             0.027144
+Oil&Gas            0.021162
+Real Estate       -0.020981
+Name: Greece, dtype: float64
+Real Estate        0.150167
+Technology        -0.027155
+Oil&Gas           -0.023106
+Pharmaceuticals   -0.019267
+Food              -0.012641
+Retail            -0.007543
+Insurance          0.002050
+Electricity       -0.000063
+Name: Hong Kong, dtype: float64
+Technology        -0.088590
+Pharmaceuticals    0.084466
+Insurance         -0.075537
+Oil&Gas            0.062030
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Real Estate       -0.020981
+Name: Hungary, dtype: float64
+Oil&Gas           -0.106274
+Technology        -0.088590
+Pharmaceuticals    0.075485
+Food               0.074340
+Electricity       -0.052383
+Real Estate       -0.020981
+Insurance         -0.009039
+Retail            -0.001796
+Name: Iceland, dtype: float64
+Technology        -0.049660
+Pharmaceuticals    0.013195
+Real Estate        0.004602
+Oil&Gas           -0.002835
+Retail            -0.002000
+Food               0.001848
+Electricity        0.001589
+Insurance          0.000961
+Name: India, dtype: float64
+Insurance         -7.553667e-02
+Pharmaceuticals   -4.600385e-02
+Oil&Gas            3.553892e-02
+Food               2.486031e-02
+Technology        -2.333903e-02
+Electricity       -5.653189e-03
+Retail            -7.562978e-05
+Real Estate       -9.924612e-08
+Name: Indonesia, dtype: float64
+Pharmaceuticals    0.095384
+Insurance         -0.075537
+Electricity       -0.052383
+Retail            -0.051110
+Oil&Gas           -0.024174
+Real Estate       -0.020981
+Food               0.013578
+Technology         0.002939
+Name: Ireland, dtype: float64
+Technology         0.228890
+Oil&Gas           -0.106274
+Insurance         -0.075537
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Isle of Man, dtype: float64
+Oil&Gas           -0.106274
+Real Estate        0.052105
+Pharmaceuticals    0.047885
+Insurance         -0.027725
+Food              -0.015297
+Retail            -0.014000
+Technology         0.007552
+Electricity       -0.002588
+Name: Israel, dtype: float64
+Technology        -0.088590
+Electricity        0.068130
+Retail            -0.051110
+Food              -0.044357
+Real Estate       -0.020981
+Oil&Gas            0.008496
+Pharmaceuticals   -0.005521
+Insurance          0.004355
+Name: Italy, dtype: float64
+Oil&Gas           -0.046410
+Technology         0.032900
+Electricity       -0.023425
+Pharmaceuticals    0.010263
+Food              -0.009826
+Insurance         -0.003249
+Real Estate        0.002243
+Retail             0.001585
+Name: Japan, dtype: float64
+Insurance          0.252750
+Oil&Gas           -0.106274
+Technology        -0.088590
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Jordan, dtype: float64
+Technology         0.228890
+Oil&Gas           -0.106274
+Insurance         -0.075537
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Kazakhstan, dtype: float64
+Insurance          0.252750
+Oil&Gas           -0.106274
+Technology        -0.088590
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Kuwait, dtype: float64
+Oil&Gas           -0.106274
+Retail             0.093671
+Insurance         -0.075537
+Food              -0.059121
+Electricity       -0.052383
+Real Estate        0.029050
+Pharmaceuticals   -0.025127
+Technology         0.020183
+Name: Luxembourg, dtype: float64
+Electricity        0.108898
+Technology        -0.088590
+Insurance         -0.075537
+Pharmaceuticals   -0.046004
+Oil&Gas           -0.028203
+Food               0.021382
+Real Estate        0.002555
+Retail            -0.001675
+Name: Malaysia, dtype: float64
+Retail             0.200520
+Oil&Gas           -0.106274
+Technology        -0.088590
+Insurance         -0.075537
+Electricity       -0.052383
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Food               0.017435
+Name: Mexico, dtype: float64
+Technology         0.156204
+Oil&Gas           -0.106274
+Electricity       -0.052383
+Insurance         -0.017427
+Food              -0.010099
+Pharmaceuticals   -0.008871
+Retail            -0.008808
+Real Estate       -0.006268
+Name: Netherlands, dtype: float64
+Food               0.143499
+Technology        -0.088590
+Insurance         -0.075537
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Oil&Gas            0.013355
+Name: New Zealand, dtype: float64
+Technology        -0.088590
+Electricity        0.054281
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Oil&Gas            0.042879
+Insurance         -0.024601
+Real Estate       -0.020981
+Food              -0.000704
+Name: Norway, dtype: float64
+Insurance          0.252750
+Oil&Gas           -0.106274
+Technology        -0.088590
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Peru, dtype: float64
+Food               0.137994
+Oil&Gas           -0.106274
+Technology        -0.088590
+Insurance         -0.075537
+Electricity        0.057148
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Philippines, dtype: float64
+Food              -0.059121
+Pharmaceuticals   -0.046004
+Technology        -0.041804
+Oil&Gas            0.028073
+Real Estate       -0.020981
+Retail             0.011093
+Insurance          0.006093
+Electricity        0.000007
+Name: Poland, dtype: float64
+Technology        -0.088590
+Food              -0.059121
+Electricity        0.047333
+Pharmaceuticals   -0.046004
+Retail             0.025768
+Real Estate       -0.020981
+Oil&Gas            0.006364
+Insurance         -0.005417
+Name: Portugal, dtype: float64
+Oil&Gas            0.139038
+Technology        -0.088590
+Insurance         -0.075537
+Food              -0.059121
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Electricity        0.006542
+Name: Romania, dtype: float64
+Oil&Gas            0.200273
+Technology        -0.088590
+Insurance         -0.075537
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Name: Russia, dtype: float64
+Oil&Gas            0.196202
+Technology        -0.088590
+Insurance         -0.075537
+Electricity       -0.052383
+Pharmaceuticals   -0.046004
+Retail            -0.041974
+Food              -0.041760
+Real Estate       -0.020981
+Name: Saudi Arabia, dtype: float64
+Oil&Gas           -0.106274
+Real Estate        0.057513
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Food               0.033673
+Technology         0.028224
+Insurance         -0.017081
+Name: Singapore, dtype: float64
+Technology        -0.088590
+Electricity       -0.052383
+Food               0.012855
+Retail             0.012583
+Pharmaceuticals    0.012151
+Oil&Gas           -0.009628
+Insurance          0.005928
+Real Estate       -0.000765
+Name: South Africa, dtype: float64
+Oil&Gas           -0.083320
+Electricity        0.075256
+Pharmaceuticals   -0.038403
+Food              -0.035038
+Real Estate       -0.020981
+Retail             0.016665
+Insurance         -0.013351
+Technology         0.005969
+Name: South Korea, dtype: float64
+Retail             0.076019
+Electricity        0.047557
+Food              -0.034742
+Insurance         -0.028608
+Oil&Gas           -0.026527
+Real Estate       -0.020981
+Technology        -0.014413
+Pharmaceuticals   -0.007935
+Name: Spain, dtype: float64
+Oil&Gas           -0.106274
+Technology         0.077569
+Insurance         -0.075537
+Electricity       -0.052383
+Retail             0.014450
+Food              -0.010129
+Real Estate        0.007090
+Pharmaceuticals   -0.000555
+Name: Sweden, dtype: float64
+Oil&Gas           -0.093234
+Pharmaceuticals    0.070203
+Retail            -0.051110
+Electricity       -0.037198
+Food               0.025208
+Real Estate       -0.010897
+Technology        -0.005278
+Insurance          0.002553
+Name: Switzerland, dtype: float64
+Technology         0.137784
+Oil&Gas           -0.086631
+Food              -0.059121
+Electricity       -0.052383
+Retail            -0.051110
+Pharmaceuticals   -0.046004
+Real Estate       -0.020981
+Insurance          0.007552
+Name: Taiwan, dtype: float64
+Technology        -0.088590
+Insurance         -0.075537
+Retail             0.074087
+Electricity       -0.052383
+Pharmaceuticals   -0.046004
+Oil&Gas            0.037496
+Real Estate       -0.020981
+Food              -0.000266
+Name: Turkey, dtype: float64
+Technology        -0.055126
+Pharmaceuticals    0.025328
+Electricity       -0.005727
+Oil&Gas            0.004707
+Food               0.002602
+Insurance         -0.001488
+Retail            -0.000976
+Real Estate       -0.000646
+Name: UK, dtype: float64
+Technology         0.085595
+Oil&Gas           -0.027806
+Food              -0.022010
+Insurance         -0.020855
+Electricity       -0.017528
+Real Estate       -0.000545
+Retail             0.000419
+Pharmaceuticals   -0.000058
+Name: USA, dtype: float64

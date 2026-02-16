@@ -1,0 +1,433 @@
+document,element,frequency_in_document
+Argentina,Electricity,0.01159634838391315
+Argentina,Food,0.0
+Argentina,Insurance,0.0
+Argentina,Oil&Gas,0.03552923760177646
+Argentina,Pharmaceuticals,0.0
+Argentina,Real Estate,0.010115963483839132
+Argentina,Retail,0.0
+Argentina,Technology,0.9427584505304712
+Australia,Electricity,0.023922181386034025
+Australia,Food,0.0
+Australia,Insurance,0.1083430533242369
+Australia,Oil&Gas,0.13858139483703427
+Australia,Pharmaceuticals,0.19536081339818218
+Australia,Real Estate,0.1383173045181452
+Australia,Retail,0.27298135962499176
+Australia,Technology,0.12249389291137569
+Austria,Electricity,0.1450105517033464
+Austria,Food,0.027132951462164608
+Austria,Insurance,0.20048236358154958
+Austria,Oil&Gas,0.4700030147723847
+Austria,Pharmaceuticals,0.0
+Austria,Real Estate,0.13415737111848056
+Austria,Retail,0.0
+Austria,Technology,0.023213747362074162
+Belgium,Electricity,0.0
+Belgium,Food,0.09166365932876218
+Belgium,Insurance,0.46192710212919524
+Belgium,Oil&Gas,0.018404907975460124
+Belgium,Pharmaceuticals,0.3286418862023337
+Belgium,Real Estate,0.0348851196920486
+Belgium,Retail,0.06447732467220017
+Belgium,Technology,0.0
+Bermuda,Electricity,0.0
+Bermuda,Food,0.0
+Bermuda,Insurance,0.7790931787066119
+Bermuda,Oil&Gas,0.06209229282435371
+Bermuda,Pharmaceuticals,0.0
+Bermuda,Real Estate,0.07844084722557784
+Bermuda,Retail,0.03430780381734719
+Bermuda,Technology,0.04606587742610937
+Brazil,Electricity,0.1558534956593209
+Brazil,Food,0.07679663019468845
+Brazil,Insurance,0.08496429855653156
+Brazil,Oil&Gas,0.5615657266142703
+Brazil,Pharmaceuticals,0.0
+Brazil,Real Estate,0.02100991421379771
+Brazil,Retail,0.09980993476139108
+Brazil,Technology,0.0
+Canada,Electricity,0.046819313091090095
+Canada,Food,0.06730711796913888
+Canada,Insurance,0.1597909407665505
+Canada,Oil&Gas,0.36320557491289196
+Canada,Pharmaceuticals,0.005993031358885017
+Canada,Real Estate,0.043802887008461924
+Canada,Retail,0.15467396714783474
+Canada,Technology,0.15840716774514685
+Cayman Islands,Electricity,0.0
+Cayman Islands,Food,0.5825242718446602
+Cayman Islands,Insurance,0.4174757281553398
+Cayman Islands,Oil&Gas,0.0
+Cayman Islands,Pharmaceuticals,0.0
+Cayman Islands,Real Estate,0.0
+Cayman Islands,Retail,0.0
+Cayman Islands,Technology,0.0
+Chile,Electricity,0.41901993355481726
+Chile,Food,0.0
+Chile,Insurance,0.0
+Chile,Oil&Gas,0.0
+Chile,Pharmaceuticals,0.0
+Chile,Real Estate,0.11586378737541528
+Chile,Retail,0.46511627906976744
+Chile,Technology,0.0
+China,Electricity,0.09797419561895514
+China,Food,0.03890823338112754
+China,Insurance,0.09005659073001963
+China,Oil&Gas,0.18722271263486684
+China,Pharmaceuticals,0.0446375367145257
+China,Real Estate,0.014291144042462884
+China,Retail,0.09864569349405891
+China,Technology,0.42826389338398335
+Colombia,Electricity,0.0
+Colombia,Food,0.0
+Colombia,Insurance,0.0
+Colombia,Oil&Gas,1.0
+Colombia,Pharmaceuticals,0.0
+Colombia,Real Estate,0.0
+Colombia,Retail,0.0
+Colombia,Technology,0.0
+Czech Republic,Electricity,0.49974886991461576
+Czech Republic,Food,0.0
+Czech Republic,Insurance,0.0
+Czech Republic,Oil&Gas,0.5002511300853842
+Czech Republic,Pharmaceuticals,0.0
+Czech Republic,Real Estate,0.0
+Czech Republic,Retail,0.0
+Czech Republic,Technology,0.0
+Denmark,Electricity,0.07444653019874259
+Denmark,Food,0.005333571705253121
+Denmark,Insurance,0.02736807604064241
+Denmark,Oil&Gas,0.0
+Denmark,Pharmaceuticals,0.8903936116325497
+Denmark,Real Estate,0.0024582104228121925
+Denmark,Retail,0.0
+Denmark,Technology,0.0
+Finland,Electricity,0.12942734193975505
+Finland,Food,0.0
+Finland,Insurance,0.2321527088160653
+Finland,Oil&Gas,0.24638640626724043
+Finland,Pharmaceuticals,0.05494869248593181
+Finland,Real Estate,0.0
+Finland,Retail,0.08948471808451948
+Finland,Technology,0.24760013240648793
+France,Electricity,0.055140677350341095
+France,Food,0.07478572101346896
+France,Insurance,0.11920235740523957
+France,Oil&Gas,0.23595581210726732
+France,Pharmaceuticals,0.181945397543024
+France,Real Estate,0.04955664096664379
+France,Retail,0.018824257592271156
+France,Technology,0.2645891360217441
+Germany,Electricity,0.14573191304766955
+Germany,Food,0.015737215019038898
+Germany,Insurance,0.26312237913915265
+Germany,Oil&Gas,0.0070612618691859065
+Germany,Pharmaceuticals,0.1555044102761845
+Germany,Real Estate,0.047621342844748636
+Germany,Retail,0.019930592374801177
+Germany,Technology,0.3452908854292187
+Gibraltar,Electricity,0.0
+Gibraltar,Food,1.0
+Gibraltar,Insurance,0.0
+Gibraltar,Oil&Gas,0.0
+Gibraltar,Pharmaceuticals,0.0
+Gibraltar,Real Estate,0.0
+Gibraltar,Retail,0.0
+Gibraltar,Technology,0.0
+Greece,Electricity,0.3335689045936396
+Greece,Food,0.0
+Greece,Insurance,0.0
+Greece,Oil&Gas,0.4007067137809187
+Greece,Pharmaceuticals,0.0
+Greece,Real Estate,0.0
+Greece,Retail,0.2657243816254417
+Greece,Technology,0.0
+Hong Kong,Electricity,0.09878919092294122
+Hong Kong,Food,0.044182503407906346
+Hong Kong,Insurance,0.19538663031566567
+Hong Kong,Oil&Gas,0.07855558228423275
+Hong Kong,Pharmaceuticals,0.018469515943655947
+Hong Kong,Real Estate,0.4674845641889183
+Hong Kong,Retail,0.047015743190869486
+Hong Kong,Technology,0.05011626974581028
+Hungary,Electricity,0.0
+Hungary,Food,0.0
+Hungary,Insurance,0.0
+Hungary,Oil&Gas,0.5733099209833187
+Hungary,Pharmaceuticals,0.4266900790166813
+Hungary,Real Estate,0.0
+Hungary,Retail,0.0
+Hungary,Technology,0.0
+Iceland,Electricity,0.0
+Iceland,Food,0.4495305164319249
+Iceland,Insurance,0.07629107981220658
+Iceland,Oil&Gas,0.0
+Iceland,Pharmaceuticals,0.4014084507042254
+Iceland,Real Estate,0.0
+Iceland,Retail,0.07276995305164319
+Iceland,Technology,0.0
+India,Electricity,0.1373765289291701
+India,Food,0.15564051643110716
+India,Insurance,0.18078214230418474
+India,Oil&Gas,0.15862611813628802
+India,Pharmaceuticals,0.19301459683849714
+India,Real Estate,0.08126935224298937
+India,Retail,0.07128388113328603
+India,Technology,0.022006863984477428
+Indonesia,Electricity,0.055118935345279264
+Indonesia,Food,0.28188200775437494
+Indonesia,Insurance,0.0
+Indonesia,Oil&Gas,0.4684061615844074
+Indonesia,Pharmaceuticals,0.0
+Indonesia,Real Estate,0.04181075133605784
+Indonesia,Retail,0.0957770093262077
+Indonesia,Technology,0.05700513465367285
+Ireland,Electricity,0.0
+Ireland,Food,0.2320354144329365
+Ireland,Insurance,0.0
+Ireland,Oil&Gas,0.07619571375194702
+Ireland,Pharmaceuticals,0.45673012267954854
+Ireland,Real Estate,0.0
+Ireland,Retail,0.0
+Ireland,Technology,0.23503874913556796
+Isle of Man,Electricity,0.0
+Isle of Man,Food,0.0
+Isle of Man,Insurance,0.0
+Isle of Man,Oil&Gas,0.0
+Isle of Man,Pharmaceuticals,0.0
+Isle of Man,Real Estate,0.0
+Isle of Man,Retail,0.0
+Isle of Man,Technology,1.0
+Israel,Electricity,0.069524697110904
+Israel,Food,0.0385834109972041
+Israel,Insurance,0.03560111835973905
+Israel,Oil&Gas,0.0
+Israel,Pharmaceuticals,0.3191053122087605
+Israel,Real Estate,0.23131407269338303
+Israel,Retail,0.03187325256290773
+Israel,Technology,0.2739981360671016
+Italy,Electricity,0.40509699505515406
+Italy,Food,0.006255018807320063
+Italy,Insurance,0.21761548539791217
+Italy,Oil&Gas,0.3246270233717932
+Italy,Pharmaceuticals,0.04640547736782046
+Italy,Real Estate,0.0
+Italy,Retail,0.0
+Italy,Technology,0.0
+Japan,Electricity,0.01921145749558021
+Japan,Food,0.05122136892690371
+Japan,Insurance,0.10334362364389686
+Japan,Oil&Gas,0.040310308090403514
+Japan,Pharmaceuticals,0.17905436577271855
+Japan,Real Estate,0.06798748134864707
+Japan,Retail,0.13441820780521774
+Japan,Technology,0.40445318691663235
+Jordan,Electricity,0.0
+Jordan,Food,0.0
+Jordan,Insurance,1.0
+Jordan,Oil&Gas,0.0
+Jordan,Pharmaceuticals,0.0
+Jordan,Real Estate,0.0
+Jordan,Retail,0.0
+Jordan,Technology,0.0
+Kazakhstan,Electricity,0.0
+Kazakhstan,Food,0.0
+Kazakhstan,Insurance,0.0
+Kazakhstan,Oil&Gas,0.0
+Kazakhstan,Pharmaceuticals,0.0
+Kazakhstan,Real Estate,0.0
+Kazakhstan,Retail,0.0
+Kazakhstan,Technology,1.0
+Kuwait,Electricity,0.0
+Kuwait,Food,0.0
+Kuwait,Insurance,1.0
+Kuwait,Oil&Gas,0.0
+Kuwait,Pharmaceuticals,0.0
+Kuwait,Real Estate,0.0
+Kuwait,Retail,0.0
+Kuwait,Technology,0.0
+Luxembourg,Electricity,0.0
+Luxembourg,Food,0.0
+Luxembourg,Insurance,0.0
+Luxembourg,Oil&Gas,0.0
+Luxembourg,Pharmaceuticals,0.012044647097862356
+Luxembourg,Real Estate,0.16749286254287393
+Luxembourg,Retail,0.4735766539408279
+Luxembourg,Technology,0.34688583641843584
+Malaysia,Electricity,0.5208436724565757
+Malaysia,Food,0.2674937965260546
+Malaysia,Insurance,0.0
+Malaysia,Oil&Gas,0.06799007444168735
+Malaysia,Pharmaceuticals,0.0
+Malaysia,Real Estate,0.06997518610421836
+Malaysia,Retail,0.07369727047146402
+Malaysia,Technology,0.0
+Mexico,Electricity,0.0
+Mexico,Food,0.2502219066216936
+Mexico,Insurance,0.0
+Mexico,Oil&Gas,0.0
+Mexico,Pharmaceuticals,0.0
+Mexico,Real Estate,0.0
+Mexico,Retail,0.7497780933783064
+Mexico,Technology,0.0
+Netherlands,Electricity,0.0
+Netherlands,Food,0.050478332488596046
+Netherlands,Insurance,0.053630258489609735
+Netherlands,Oil&Gas,0.0
+Netherlands,Pharmaceuticals,0.03666687785098834
+Netherlands,Real Estate,0.01214837810440953
+Netherlands,Retail,0.04343005575266092
+Netherlands,Technology,0.8036460973137354
+New Zealand,Electricity,0.0
+New Zealand,Food,0.6430260047281324
+New Zealand,Insurance,0.0
+New Zealand,Oil&Gas,0.35697399527186763
+New Zealand,Pharmaceuticals,0.0
+New Zealand,Real Estate,0.0
+New Zealand,Retail,0.0
+New Zealand,Technology,0.0
+Norway,Electricity,0.3625867064711564
+Norway,Food,0.0977258758451137
+Norway,Insurance,0.04034594784441128
+Norway,Oil&Gas,0.49934146983931865
+Norway,Pharmaceuticals,0.0
+Norway,Real Estate,0.0
+Norway,Retail,0.0
+Norway,Technology,0.0
+Peru,Electricity,0.0
+Peru,Food,0.0
+Peru,Insurance,1.0
+Peru,Oil&Gas,0.0
+Peru,Pharmaceuticals,0.0
+Peru,Real Estate,0.0
+Peru,Retail,0.0
+Peru,Technology,0.0
+Philippines,Electricity,0.3715766099185788
+Philippines,Food,0.6284233900814211
+Philippines,Insurance,0.0
+Philippines,Oil&Gas,0.0
+Philippines,Pharmaceuticals,0.0
+Philippines,Real Estate,0.0
+Philippines,Retail,0.0
+Philippines,Technology,0.0
+Poland,Electricity,0.10679396092362345
+Poland,Food,0.0
+Poland,Insurance,0.2311278863232682
+Poland,Oil&Gas,0.43472468916518653
+Poland,Pharmaceuticals,0.0
+Poland,Real Estate,0.0
+Poland,Retail,0.19738010657193605
+Poland,Technology,0.02997335701598579
+Portugal,Electricity,0.3402966367244621
+Portugal,Food,0.0
+Portugal,Insurance,0.09108000835596407
+Portugal,Oil&Gas,0.30812617505744727
+Portugal,Pharmaceuticals,0.0
+Portugal,Real Estate,0.0
+Portugal,Retail,0.2604971798621266
+Portugal,Technology,0.0
+Romania,Electricity,0.17570093457943925
+Romania,Food,0.0
+Romania,Insurance,0.0
+Romania,Oil&Gas,0.8242990654205608
+Romania,Pharmaceuticals,0.0
+Romania,Real Estate,0.0
+Romania,Retail,0.0
+Romania,Technology,0.0
+Russia,Electricity,0.0
+Russia,Food,0.0
+Russia,Insurance,0.0
+Russia,Oil&Gas,1.0
+Russia,Pharmaceuticals,0.0
+Russia,Real Estate,0.0
+Russia,Retail,0.0
+Russia,Technology,0.0
+Saudi Arabia,Electricity,0.0
+Saudi Arabia,Food,0.007903984212169115
+Saudi Arabia,Insurance,0.0
+Saudi Arabia,Oil&Gas,0.9886978060150831
+Saudi Arabia,Pharmaceuticals,0.0
+Saudi Arabia,Real Estate,0.0
+Saudi Arabia,Retail,0.003398209772747868
+Saudi Arabia,Technology,0.0
+Singapore,Electricity,0.0
+Singapore,Food,0.31586136247225544
+Singapore,Insurance,0.05437937510670992
+Singapore,Oil&Gas,0.0
+Singapore,Pharmaceuticals,0.0
+Singapore,Real Estate,0.2454328154345228
+Singapore,Retail,0.0
+Singapore,Technology,0.38432644698651186
+South Africa,Electricity,0.0
+South Africa,Food,0.22843822843822845
+South Africa,Insurance,0.2299215935579572
+South Africa,Oil&Gas,0.11909302818393727
+South Africa,Pharmaceuticals,0.18817546090273363
+South Africa,Real Estate,0.029667302394575122
+South Africa,Retail,0.20470438652256834
+South Africa,Technology,0.0
+South Korea,Electricity,0.42619006702182505
+South Korea,Food,0.013003379733058372
+South Korea,Insurance,0.06329839033052644
+South Korea,Oil&Gas,0.009165377785415593
+South Korea,Pharmaceuticals,0.002749613335624678
+South Korea,Real Estate,0.0
+South Korea,Retail,0.22340608351950508
+South Korea,Technology,0.2621870882740448
+Spain,Electricity,0.34102842392420285
+Spain,Food,0.013258631310316505
+Spain,Insurance,0.03434924173535537
+Spain,Oil&Gas,0.07127980992050688
+Spain,Pharmaceuticals,0.03907189580827784
+Spain,Real Estate,0.0
+Spain,Retail,0.4233962042767886
+Spain,Technology,0.07761579302455193
+Sweden,Electricity,0.0
+Sweden,Food,0.050396375990939976
+Sweden,Insurance,0.0
+Sweden,Oil&Gas,0.0
+Sweden,Pharmaceuticals,0.07594847112117781
+Sweden,Real Estate,0.09279445073612684
+Sweden,Retail,0.21347678369195924
+Sweden,Technology,0.5673839184597962
+Switzerland,Electricity,0.006871805287566433
+Switzerland,Food,0.2832842490098507
+Switzerland,Insurance,0.20090721370298906
+Switzerland,Oil&Gas,0.004282184083138688
+Switzerland,Pharmaceuticals,0.386251311736231
+Switzerland,Real Estate,0.0060424494769980705
+Switzerland,Retail,0.0
+Switzerland,Technology,0.11236078670322602
+Taiwan,Electricity,0.0
+Taiwan,Food,0.0
+Taiwan,Insurance,0.24130956895462016
+Taiwan,Oil&Gas,0.00739476678043231
+Taiwan,Pharmaceuticals,0.0
+Taiwan,Real Estate,0.0
+Taiwan,Retail,0.0
+Taiwan,Technology,0.7512956642649475
+Turkey,Electricity,0.0
+Turkey,Food,0.10539736506587336
+Turkey,Insurance,0.0
+Turkey,Oil&Gas,0.4768380790480238
+Turkey,Pharmaceuticals,0.0
+Turkey,Real Estate,0.0
+Turkey,Retail,0.41776455588610284
+Turkey,Technology,0.0
+UK,Electricity,0.05484581234666208
+UK,Food,0.1632100865793663
+UK,Insurance,0.11781007053386004
+UK,Oil&Gas,0.2936531379506382
+UK,Pharmaceuticals,0.2425381990626251
+UK,Real Estate,0.030590797824985014
+UK,Retail,0.08004231963691841
+UK,Technology,0.01730957606494485
+USA,Electricity,0.027237881183442503
+USA,Food,0.027420285550255094
+USA,Insurance,0.04680162544021314
+USA,Oil&Gas,0.06875392626845822
+USA,Pharmaceuticals,0.08666596373975251
+USA,Real Estate,0.031448294169392065
+USA,Retail,0.11821173495476232
+USA,Technology,0.5934602886937241

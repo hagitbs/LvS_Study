@@ -1,0 +1,19 @@
+[data]
+file_path = data/demo/demo.csv
+file_path2 = None
+dataset = demo
+ignore_columns = []
+columns_to_remove=[]
+[proc]
+agg_column = Industry
+var_name = Country
+value_name = Marketcap
+processing_type = freq
+[output]
+output_path = results/demo/lvs.csv
+output_dic = results/demo/dic.csv 
+sig_file = results/demo/signatures.csv
+graph = True
+top = 25
+sig_length = 200
+short_names = False
