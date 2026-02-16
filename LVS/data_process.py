@@ -395,7 +395,7 @@ def main():
     #parser = argparse.ArgumentParser(description="Process data from a CSV file.")
     #parser.add_argument("--config", help="Path to the config file", default="config.toml")
     #args = parser.parse_args()
-    config_file_path = 'LVS_for_datasets/config_demo.toml'  # Replace with your actual path
+    config_file_path = 'config_demo.toml'  # Replace with your actual path
 
     # 2. Read the config file
     config = configparser.ConfigParser()
