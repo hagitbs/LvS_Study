@@ -13,10 +13,10 @@ def safe_name(s: str) -> str:
 
 def plot_country_panel(df_country: pd.DataFrame, document: str, out_path: str , entity:str) :
     # Sort order (you can switch to Observed or alphabetical)
-    df_country = df_country.sort_values("q", ascending=False).reset_index(drop=True)
+    df_country = df_country.sort_values("expected", ascending=False).reset_index(drop=True)
 
     x = np.arange(len(df_country), dtype=float)
-    ys = df_country["jsd_nats"].to_numpy(dtype=float)
+    ys = df_country["LvS"].to_numpy(dtype=float)
 
  
  
@@ -24,8 +24,8 @@ def plot_country_panel(df_country: pd.DataFrame, document: str, out_path: str , 
     fig, ax1 = plt.subplots(figsize=(11.6, 6.3))
 
     # Bars (left axis)
-    ax1.bar(x, df_country["q"], width=0.55, color="grey", alpha=0.35, label="Expected")
-    ax1.bar(x, df_country["p"], width=0.35, color="tab:blue", alpha=0.95, label="Observed")
+    ax1.bar(x, df_country["expected"], width=0.55, color="grey", alpha=0.35, label="Expected")
+    ax1.bar(x, df_country["observed"], width=0.35, color="tab:blue", alpha=0.95, label="Observed")
     ax1.set_ylabel("Share (Observed / Expected)")
     ax1.set_ylim(0, 0.6)
     '''
@@ -82,8 +82,9 @@ def plot_country_panel(df_country: pd.DataFrame, document: str, out_path: str , 
 # =========================
 # MAIN: read + pivot + plot
 # =========================
-csv_path = "/Users/hagitbenshoshan/Documents/PHD/Market/Data/vis3.csv"   # <-- set this
-out_dir = "/Users/hagitbenshoshan/Documents/PHD/Market/country_figs_no_star3"
+dataset='demo'
+csv_path = f"results/{dataset}/df_merged.csv"   # <-- set this
+out_dir = f"results/{dataset}/country_figs_no_star3"
 os.makedirs(out_dir, exist_ok=True)
 
 df = pd.read_csv(csv_path) 

@@ -4,6 +4,7 @@ import configparser
 import pandas as pd
 import altair as alt
 from LPA import Corpus
+import lvs_per_country
 import lvs_per_document
 
 alt.data_transformers.disable_max_rows()
@@ -255,7 +256,13 @@ def generate_signatures(df, entity_code_df, sig_file, dataset,graph,top,sig_leng
             print (df_merged.head(10) )  
             docs = df_merged[['document']]
 
-            lvs_per_document.plot_document (df_merged,dataset,docs) 
+
+
+            #lvs_per_document.plot_document (df_merged,dataset,docs) 
+            #lvs_per_country.plot_document  (df_merged,dataset,docs) 
+            df_merged.to_csv(f"results/{dataset}/df_merged.csv", index=False)
+            docs.to_csv(f"results/{dataset}/docs.csv", index=False)
+
 
             # Top 10 distances chart
             try:

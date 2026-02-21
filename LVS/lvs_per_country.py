@@ -9,32 +9,34 @@ def safe_name(s: str) -> str:
     s = re.sub(r"\s+", "_", s)
     s = s.replace("/", "-").replace("\\", "-")
     s = re.sub(r"[^A-Za-z0-9_\-\.]", "", s)
-    return s if s else "UnknownCountry"
+    return s if s else "Unknown Country"
 
-def plot_country_panel(df_country: pd.DataFrame, country: str, out_path: str):
+def   plot_final_analysis(df_doc, doc_id, secondary_col, filename):
+
+
     # Sort order (you can switch to Observed or alphabetical)
-    df_country = df_country.sort_values("Expected", ascending=False).reset_index(drop=True)
+    df_doc = df_doc.sort_values("expected", ascending=False).reset_index(drop=True)
 
-    x = np.arange(len(df_country), dtype=float)
-    ys = df_country["LvS"].to_numpy(dtype=float)
+    x = np.arange(len(df_doc), dtype=float)
+    ys = df_doc["LvS"].to_numpy(dtype=float)
 
     # Right axis limits (LvS)
-    lvs_min = float(df_country["LvS"].min())
-    lvs_max = float(df_country["LvS"].max())
+    lvs_min = float(df_doc["LvS"].min())
+    lvs_max = float(df_doc["LvS"].max())
     y2min = min(lvs_min * 1.25, -0.02)
     y2max = max(lvs_max * 1.15, 0.02)
 
     # Align zeros across axes
     f2 = (-y2min) / (y2max - y2min)
-    y1max = float(max(df_country["Expected"].max(), df_country["Observed"].max()) * 1.18)
+    y1max = float(max(df_doc["expected"].max(), df_doc["observed"].max()) * 1.18)
     y1min = (f2 * y1max) / (f2 - 1)
 
     fig, ax1 = plt.subplots(figsize=(11.6, 6.3))
 
     # Bars (left axis)
-    ax1.bar(x, df_country["Expected"], width=0.75, color="grey", alpha=0.35, label="Expected")
-    ax1.bar(x, df_country["Observed"], width=0.45, color="tab:blue", alpha=0.95, label="Observed")
-    ax1.set_ylabel("Share (Observed / Expected)")
+    ax1.bar(x, df_doc["expected"], width=0.75, color="grey", alpha=0.35, label="Expected")
+    ax1.bar(x, df_doc["observed"], width=0.45, color="tab:blue", alpha=0.95, label="Observed")
+    ax1.set_ylabel("Share (observed / expected)")
     ax1.set_ylim(y1min, y1max)
 
     # Stars + sash (right axis)
@@ -71,10 +73,10 @@ def plot_country_panel(df_country: pd.DataFrame, country: str, out_path: str):
         ax2.text(xi, lvs + dy, f"{lvs:+.3f}", ha="center", va=va, fontsize=9)
 
     ax1.set_xticks(x)
-    ax1.set_xticklabels(df_country["Element"], rotation=35, ha="right")
+    ax1.set_xticklabels(df_doc["element"], rotation=35, ha="right")
 
     ax1.set_title(
-        f"Country: {country} — Expected (grey) vs Observed (blue) + LvS (stars)"
+        f"Country: {doc_id} — Expected (grey) vs Observed (blue) + LvS (stars)"
     )
 
     # Combined legend
@@ -83,51 +85,19 @@ def plot_country_panel(df_country: pd.DataFrame, country: str, out_path: str):
     ax1.legend(h1 + h2, l1 + l2, frameon=False, ncol=3, loc="upper right")
 
     fig.tight_layout()
-    fig.savefig(out_path, dpi=200, bbox_inches="tight")
+    fig.savefig(filename, dpi=200, bbox_inches="tight")
     plt.close(fig)
+ 
 
-# =========================
-# MAIN: read + pivot + plot
-# =========================
-csv_path = "/Users/hagitbenshoshan/Documents/PHD/Market/Data/vis.csv"   # <-- set this
-out_dir = "country_figs"
-os.makedirs(out_dir, exist_ok=True)
+# --- EXECUTION ---
+ 
+def plot_document (df,dataset,docs):
 
-df_long = pd.read_csv(csv_path)
-
-# Normalize column names (handles minor spacing/casing differences)
-df_long = df_long.rename(columns={
-    "Measure Names": "Measure",
-    "Measure Values": "Value"
-})
-
-required = {"Country", "Element", "Measure", "Value"}
-missing = required - set(df_long.columns)
-if missing:
-    raise ValueError(f"Missing columns: {missing}. Found: {list(df_long.columns)}")
-
-df_long["Value"] = pd.to_numeric(df_long["Value"], errors="coerce")
-df_long = df_long.dropna(subset=["Country", "Element", "Measure", "Value"])
-
-# Pivot to wide: Observed / Expected / LvS columns
-df_wide = (df_long
-           .pivot_table(index=["Country", "Element"], columns="Measure", values="Value", aggfunc="mean")
-           .reset_index())
-
-# If your measures are named Freq instead of Observed, rename here:
-rename_map = {"Freq": "Observed", "Observed": "Observed", "Expected": "Expected", "LvS": "LvS"}
-df_wide = df_wide.rename(columns={k: v for k, v in rename_map.items() if k in df_wide.columns})
-
-needed = {"Observed", "Expected", "LvS"}
-missing_measures = needed - set(df_wide.columns)
-if missing_measures:
-    raise ValueError(f"After pivot, missing measures: {missing_measures}. Columns now: {list(df_wide.columns)}")
-
-df_wide = df_wide.dropna(subset=["Observed", "Expected", "LvS"])
-
-# One figure per country
-for country, sub in df_wide.groupby("Country", sort=True):
-    out_path = os.path.join(out_dir, f"{safe_name(country)}_expected_observed_lvs.png")
-    plot_country_panel(sub, country, out_path)
-
-print("Saved figures to:", out_dir)
+    out_dir = f"results/{dataset}/country_lvs"
+    if not os.path.exists(out_dir): os.makedirs(out_dir)
+    print(docs)
+    docs_list = docs['document'].dropna().unique()
+    for dc in docs_list:
+        subset = df[df['document'] == dc]
+        # This now runs on a single Y-axis with scaled LvS values
+        plot_final_analysis(subset, dc, 'LvS', os.path.join(out_dir, f"LvSc_{dc}.png"))

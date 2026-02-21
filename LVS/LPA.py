@@ -15,6 +15,7 @@ import bottleneck as bn
 
 from algo import entropy, symmetrized_KLD, JSD
 from helpers import read, write, timing
+from helpers import write
 
 
 class Matrix:
