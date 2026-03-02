@@ -20,7 +20,7 @@ def plot_final_analysis(df_doc, doc_id, secondary_col, filename):
     
     # --- CONSOLIDATION & SCALING ---
     # Scaling factor to make tiny LvS/Gap values visible on the same axis as bars
-    scaling_factor = 50 
+    scaling_factor = 30 
     scaled_values = df_doc[secondary_col].values * scaling_factor
 
     # 2. PRIMARY AXIS (Proportions)
