@@ -42,7 +42,7 @@ for key in keys:
 
     # LvS markers only (no line)
     for i, lvs_val in enumerate(lvs):
-        color = '#22c55e' if lvs_val >= 0 else '#ef4444'
+        color = "#151916" if lvs_val >= 0 else '#ef4444'
         marker = '^' if lvs_val >= 0 else 'v'
         ax1.scatter(x[i], lvs_val, color=color, marker=marker, s=80, zorder=5)
 
